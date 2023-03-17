@@ -15,6 +15,5 @@ console.log(age >= 25); //">=" - Greater than or equal to = True
 console.log(age <= 24); //"<=" - Less than or equal to = False
 
 //COMPARISONS IN STRINGS
-console.log("abc" > "xyz");
-console.log();
-console.log();
+console.log("abc" > "xyz"); // False
+console.log("abc" > "ABC"); // True
