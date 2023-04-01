@@ -4,12 +4,17 @@
 */
 
 // JS FUNCTION (Arguments & Parameters):
-function welcome(name){
-    console.log(`Welcome ${name}`);    
-}
-welcome("Gathu");
-
+// function welcome(name){
+//     console.log(`Welcome ${name}`);    
+// }
+// welcome("Gathu");
 /*
     NB: `name` - Is parameter
         `Gathu` - Is argument 
 */
+
+function multiply(numOne, numTwo){
+    let result = numOne * numTwo;
+    console.log(result);
+}
+multiply(22,10);
