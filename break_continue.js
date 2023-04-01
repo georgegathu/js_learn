@@ -1,5 +1,5 @@
 //break: is used to stop the entire iteration
-//continue: is used to skip just that iteration
+//continue: is used to skip just one iteration
 
 let ratings = [7, 8, 5, 3, 0, 6, 10, 7, 8];
 

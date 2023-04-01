@@ -1,7 +1,12 @@
-//JS FUNCTION TO ADD TWO NUMBERS:
-function sum(x, y) {
-    return x + y
+/* 
+    FUNCTIONS: Its a block of code that we can call anytime.
+    We use this block of code to do repetitive work.
+    -HOW TO WRITE A FUNCTION-
+*/
+
+//JS FUNCTION TO LEAVE A MESSAGE "Welcome!":
+function intro() { // We define the function
+    console.log("Welcome to JS class!")
 }
 
-const myValue = sum (22 , 44)
-console.log(myValue)
+intro(); //Call the function
