@@ -4,9 +4,9 @@
     -HOW TO WRITE A FUNCTION-
 */
 
-//JS FUNCTION TO LEAVE A MESSAGE "Welcome!":
-function intro() { // We define the function
-    console.log("Welcome to JS class!")
-}
+// JS FUNCTION (A FUNCTION STORED IN A VARIABLE)
+let intro = function(){
+    console.log("Welcome to JS class!!")
+};
 
-intro(); //Call the function
+intro();
