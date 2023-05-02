@@ -4,8 +4,14 @@ let my_team = function(){
 };
 my_team();
 
-//This here is an example of an Arrow Function
+//This here is an example of an Arrow Function: Example 1   
 let trophy = (status)=> {
     console.log("EPL",status);
 };
 trophy("Winners!");
+
+//This here is an example of an Arrow Function: Example 2(Using backticks)   
+let fruit = (benefits)=> {
+    console.log(`Apple: ${benefits}`);
+};
+fruit("used to detoxify the system");
