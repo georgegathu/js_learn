@@ -5,7 +5,7 @@ let my_team = function(){
 my_team();
 
 //This here is an example of an Arrow Function
-let trophy = ()=> {
-    console.log("EPL");
+let trophy = (status)=> {
+    console.log("EPL",status);
 };
-trophy();
+trophy("Winners!");
