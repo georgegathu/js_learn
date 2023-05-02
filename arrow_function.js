@@ -15,3 +15,13 @@ let fruit = (benefits)=> {
     console.log(`Apple: ${benefits}`);
 };
 fruit("used to detoxify the system");
+
+// Remove the code block carleybraces and the return key word
+//FROM:
+let sub = (numOne, numTwo) => {
+    return numOne - numTwo;
+};
+console.log(sub(20,10))
+//TO:
+let add = (numOne, numTwo) => numOne + numTwo;
+console.log(add(20,10));
