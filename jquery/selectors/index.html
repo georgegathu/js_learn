@@ -51,6 +51,13 @@
             <li>Item List</li>
             <li>Item List</li>
         </ul>
+
+        <input type="submit" value="Submit">
+        <input type="button" value="Delete">
+        <input type="text">
+
+        <a href="https://google.com">Google</a>
+        <a href="https://gmail.com">Gmail</a>
     </div>
     </div>
     <script>
@@ -64,6 +71,10 @@
         $('ul#list li:last').css('color','green');
         $('ul#list li:even').css('background-color','darkgrey');
         $('ul#list li:odd').css('background-color','lightgrey');
+        $(':button').hide();
+        $('[href]').css('color','red')
+        $('[href="https://gmail.com"]').css('color','blue')
+        //$('*').hide(); //This is a wild card selector to make the website go blank
     </script>
 </body>
 </html>
