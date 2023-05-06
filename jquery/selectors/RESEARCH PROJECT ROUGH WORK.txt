@@ -1,0 +1,59 @@
+-Rising Moms
+Breaking the cycle of teenage pregnancy and educational disadvantage
+
+-Team:
+Project Manager
+UX/UI Designer
+Front-end Developer
+Back-end Developer
+Quality Assurance (QA) Engineer
+DevOps Engineer
+Content Manager
+Technical Writer
+
+-Technologies:
+The project will be a web-based project thus I shall use:
+Programming Languages: HTML, CSS, JavaScript, and PHP or Python for server-side programming.
+Web Frameworks: There are many web frameworks available for PHP and Python, including Laravel, Django, and Flask. These frameworks provide built-in tools and libraries for building web applications, making it easier and faster to develop the website.
+Content Management Systems (CMS): CMS like WordPress: used to create, manage and publish content to the website. These CMS have a large community of developers, making it easy to find and integrate additional features.
+Front-end Frameworks and Libraries: React, Vue, or jQuery can be used to create dynamic, responsive user interfaces for the website.
+Hosting Platform: Services like AWS, Google Cloud, or Heroku.
+Database: MySQL or PostgreSQL
+Version Control: Git: is used to manage the source code and collaborate with other developers.
+Text Editor: Visual Studio Code.
+Resources: books like "Web Development with Node and Express" by Ethan Brown and "Learning PHP, MySQL, and JavaScript" by Robin Nixon.
+
+
+-Challenge
+The problem that the Portfolio Project is intended to solve is to provide a platform for an NGO organization that helps young mothers who had to drop out of school due to early teen pregnancies. The website will help the organization to reach out to a wider audience and provide valuable resources and support to the target group. The platform will provide a space for young mothers to share their experiences and connect with others who have faced similar challenges. The website will also provide information on resources available to support young mothers in continuing their education and building a brighter future for themselves and their children.
+However, it is important to note that the Portfolio Project will not solve all the problems faced by young mothers who had to drop out of school due to early teen pregnancies. The website will only provide a platform for sharing information and resources, connecting with others, and providing support. The project will not be able to provide individualized counseling or address all the unique challenges faced by each young mother.
+The Portfolio Project will help the NGO organization and the young mothers who have had to drop out of school due to early teen pregnancies. The website will be designed for the target audience, which will be young mothers who are seeking information, resources, and support to continue their education and build a brighter future for themselves and their children.
+While the website will be designed to be accessible globally, the project may be more relevant to certain locales where there is a higher incidence of early teen pregnancies and dropouts from school. Therefore, the website may be more relevant and useful in those specific locales.
+
+
+-Risks
+The technical risks of this project include security breaches and technical glitches, which can impact the performance and security of the website. 
+The non-technical risks include reputational damage and legal and regulatory issues, which could undermine the trust of users in the organization. 
+To mitigate these risks, we will implement safeguards and alternatives, regularly monitor and maintain the website, collect user feedback, ensure compliance with relevant laws and regulations, and seek legal advice if necessary.
+
+
+-Infrastructure:
+Branching and Merging: Our team will use the Git version control system for branching and merging in our repository. We will follow the GitHub flow branching model, which involves creating branches for new features or changes, making changes to the code, pushing the changes to the branch, and opening a pull request for code review before merging it into the main branch. We will also ensure that all team members are aware of the branching and merging process and follow best practices for Git management.
+
+Deployment Strategy: Our deployment strategy will involve using a cloud-based platform, such as Heroku or AWS, to host and deploy the website. We will use a continuous integration and deployment (CI/CD) pipeline to automate the deployment process, ensuring that any code changes are automatically built, tested, and deployed to the live server. We will also ensure that the deployment environment is separate from the development environment, and implement a rollback plan in case of any issues with the deployment.
+
+Data Population: To populate our app with data, we will create a database to store user information, resources, and support materials. We will use a combination of manual data entry and automation tools, such as Python scripts or web scraping, to populate the database. We will also ensure that the data is properly structured and normalized to enable efficient querying and retrieval.
+
+Testing Process: To ensure the quality and reliability of our website, we will implement a testing process that involves automated and manual testing. For automated testing, we will use tools such as Selenium or Cypress to perform functional and integration testing. We will also implement unit testing for critical components of the codebase. For manual testing, we will create test plans and test cases to cover all aspects of the website, including user flows, edge cases, and accessibility. We will also use continuous integration tools, such as Travis CI, to automate the testing process and ensure that any code changes are thoroughly tested before deployment.
+
+
+-Existing Solutions:
+Planned Parenthood: Planned Parenthood is a non-profit organization that provides reproductive healthcare services, including education and resources for young mothers. Like our project, Planned Parenthood aims to support young mothers who may have dropped out of school due to early teen pregnancies. However, Planned Parenthood is a much larger organization with a broader range of services, including birth control and abortion services, and operates in multiple countries.
+
+Teen Pregnancy & Parenting Services (TPPS): TPPS is a program funded by the US government that provides support and resources to young parents, including education and training programs. TPPS focuses on providing support to young parents in low-income families and aims to help them achieve economic self-sufficiency. Unlike our project, TPPS is a government-funded program and is only available to US residents.
+
+Young Parent Support Network (YPSN): YPSN is a UK-based organization that provides support and resources to young parents, including education and training programs. YPSN aims to provide a safe and supportive community for young parents and their families. Like our project, YPSN aims to support young parents who may have dropped out of school due to early teen pregnancies. However, YPSN is a regional organization and is only available to residents of the UK.
+
+Our project aims to provide a website specifically designed for young mothers who had to drop out of school because of early teen pregnancies. Unlike the existing solutions listed above, our project will provide a centralized platform for accessing educational resources, community support, and job training programs. Our project will also leverage technology to provide personalized recommendations and resources based on the user's needs and interests. Additionally, our project will be available globally, making it accessible to young mothers around the world who may not have access to similar resources and support programs in their local area.
+
+Link: https://intranet.alxswe.com/corrections/14500562/correct
