@@ -10,4 +10,11 @@ let user = {
 };
 
 console.log(user);
+console.log(typeof user);
+
+console.log(user.isLoggedIn);
+user.isLoggedIn = true; // change status from false to true (Overwrite property)
+console.log(user.isLoggedIn);
+
+console.log(user["email"]); // Access email object
 
