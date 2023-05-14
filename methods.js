@@ -1,14 +1,17 @@
+let random = "MANCHESTER UNITED";
+
 let user = {
     name: "De Zerbi",
     email: "dezerbi@gmail.com",
     age: 43,
     isLoggedIn: false,
     login: function(){
-        console.log("LOGIN");
+        return "LOGIN";
     },
     logout: function(){
-        console.log("LOGOUT");
+        return "LOGOUT";
     }
 };
 
-user.login();
+console.log(user.login());
+console.log(random.toLowerCase());
